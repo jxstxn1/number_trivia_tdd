@@ -186,9 +186,11 @@ packages:
   data_connection_checker:
     dependency: "direct main"
     description:
-      name: data_connection_checker
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: master
+      resolved-ref: f6cf6834719b1a76f3746bdd926533352d5bd26c
+      url: "git://github.com/bobanalappat/data_connection_checker.git"
+    source: git
     version: "0.3.4"
   equatable:
     dependency: "direct main"
