@@ -5,6 +5,6 @@ abstract class NumberTriviaLocalDataSource {
   /// the user had an internet connection.
   ///
   /// Throws [CacheException] if no cached data is present.
-  Future<NumberTriviaModel> get lastNumberTrivia;
+  Future<NumberTriviaModel> getLastNumberTrivia();
   Future<void> cacheNumberTrivia(NumberTriviaModel triviaToCache);
 }
