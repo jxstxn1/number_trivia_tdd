@@ -7,23 +7,17 @@ environment:
   sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  connectivity: ^3.0.6
   cupertino_icons: ^1.0.2
-  # for functional programming
   dartz: ^0.10.0
-  # value equality
+  data_connection_checker: ^0.3.4
   equatable: ^2.0.3
   flutter:
     sdk: flutter
-  # Bloc for state management
   flutter_bloc: ^7.2.0
-  # Service locator
   get_it: ^7.2.0
-  # Remote API
   http: ^0.13.3
-  # Local cache
-  shared_preferences: ^2.0.7
   mockito_builder_annotations: ^0.2.2
+  shared_preferences: ^2.0.7
 
 dev_dependencies:
   build_runner: ^2.1.1
@@ -31,7 +25,6 @@ dev_dependencies:
     sdk: flutter
   lint: ^1.6.0
   mockito: ^5.0.15
-  
 
 flutter:
   uses-material-design: true
