@@ -1,12 +1,12 @@
-import 'package:number_trivia_tdd/core/error/exception.dart';
-import 'package:number_trivia_tdd/core/network/network_info.dart';
-import 'package:number_trivia_tdd/features/number_trivia/data/datasources/number_trivia_local_data_source.dart';
-import 'package:number_trivia_tdd/features/number_trivia/data/datasources/number_trivia_remote_data_source.dart';
-import 'package:number_trivia_tdd/features/number_trivia/data/models/number_trivia_model.dart';
-import 'package:number_trivia_tdd/features/number_trivia/domain/entities/number_trivia.dart';
-import 'package:number_trivia_tdd/core/error/failure.dart';
+import '../../../../core/error/exception.dart';
+import '../../../../core/network/network_info.dart';
+import '../datasources/number_trivia_local_data_source.dart';
+import '../datasources/number_trivia_remote_data_source.dart';
+import '../models/number_trivia_model.dart';
+import '../../domain/entities/number_trivia.dart';
+import '../../../../core/error/failure.dart';
 import 'package:dartz/dartz.dart';
-import 'package:number_trivia_tdd/features/number_trivia/domain/repositories/number_trivia_repository.dart';
+import '../../domain/repositories/number_trivia_repository.dart';
 
 // ignore: avoid_private_typedef_functions
 typedef _ConcreteOrRandomChooser = Future<NumberTrivia> Function();
