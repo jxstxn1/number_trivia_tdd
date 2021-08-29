@@ -3,6 +3,7 @@ import 'package:number_trivia_tdd/features/number_trivia/presentation/pages/numb
 import 'injection_container.dart' as dependency_injection;
 
 Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   await dependency_injection.init();
   runApp(MyApp());
 }
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.green.shade800,
         accentColor: Colors.green.shade600,
       ),
-      home: const NumberTriviaPage(),
+      home: NumberTriviaPage(),
     );
   }
 }
